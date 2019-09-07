@@ -1,0 +1,106 @@
+{"items" : [
+			   {"id": "Basic_Health_Potion",
+				"typeID": "Health_Potion",
+				"name": "Basic Health Potion",
+				"description": "This is the description of Basic Health Potion item.",
+				"price": 10,
+				"maxStackSize": 20,
+				"recipe": 
+							{"ingredients":[
+											{"itemID":"Fish","amount": 3}],
+							"requiredMachineID": null,
+							"timeToCraft": 1.0}
+			   },
+			   {"id": "Advanced_Health_Potion",
+				"typeID": "Health_Potion",
+				"name": "Advanced Health Potion",
+				"description": "This is the description of Advanced Health Potion item.",
+				"price": 15,
+				"maxStackSize": 15,
+				"recipe": 
+							{"ingredients":[
+											{"itemID":"Flower","amount": 5},
+											{"itemID":"Water_Bottle","amount": 5}],
+							"requiredMachineID": null,
+							"timeToCraft": 1.2}
+			   },
+			   {"id": "Fish",
+				"typeID": "Fish",
+				"name": "Fish",
+				"description": "This is the description of Fish item.",
+				"price": 15,
+				"maxStackSize": 15,
+				"recipe": null 
+			   },
+			   {"id": "Nine_Slot_Bag",
+				"typeID": "Nine_Slot_Bag",
+				"name": "Nine Slot Bag",
+				"description": "This is the description of Nine Slot Bag item.",
+				"price": 20,
+				"maxStackSize": 1,
+				"recipe": 
+							{"ingredients":[
+											{"itemID":"Leather","amount": 5},
+											{"itemID":"Rope","amount": 5}],
+							"requiredMachineID": null,
+							"timeToCraft": 3.0}
+			   },
+			   {"id": "Health_Potion",
+				"typeID": "Health_Potion",
+				"name": "Health Potion",
+				"description": "This is the description of Health Potion item.",
+				"price": 5,
+				"maxStackSize": 25,
+				"recipe": 
+							{"ingredients":[
+											{"itemID":"Flower","amount": 1},
+											{"itemID":"Water_Bottle","amount": 1}],
+							"requiredMachineID": "Potion_Brewer",
+							"timeToCraft": 1.0}
+			   },
+			   {"id": "Potion_Brewer",
+				"typeID": "Potion_Brewer",
+				"name": "Potion Brewer",
+				"description": "This is the description of Potion Brewer item.",
+				"price": 50,
+				"maxStackSize": 1,
+				"recipe": 
+							{"ingredients":[
+											{"itemID":"Basic_Health_Potion","amount": 3}],
+							"requiredMachineID": null,
+							"timeToCraft": 1.0}
+			   },
+			   {"id": "Flower",
+				"typeID": "Flower",
+				"name": "Flower",
+				"description": "This is the description of Flower item.",
+				"price": 50,
+				"maxStackSize": 2,
+				"recipe": null
+			   },
+			   {"id": "Water_Bottle",
+				"typeID": "Water_Bottle",
+				"name": "Water Bottle",
+				"description": "This is the description of Water Bottle item.",
+				"price": 50,
+				"maxStackSize": 3,
+				"recipe": null
+			   },
+			   {"id": "Rope",
+				"typeID": "Rope",
+				"name": "Rope",
+				"description": "This is the description of Rope item.",
+				"price": 50,
+				"maxStackSize": 4,
+				"recipe": null
+			   },
+			   {"id": "Leather",
+				"typeID": "Leather",
+				"name": "Leather",
+				"description": "This is the description of Leather item.",
+				"price": 50,
+				"maxStackSize": 5,
+				"recipe": null
+			   }
+
+]}

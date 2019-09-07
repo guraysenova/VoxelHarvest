@@ -1,0 +1,19 @@
+{
+"Quests":[  
+			{"ID":"01",
+			"Title":"Crafting 101",
+			"Description":"Craft 5 Health Potions",
+			"StartDialogue" : ["Hello , welcome to my shop. I suppose you wanna make quick money" , "First get me 5 Health Potions I will make it worth your time."] ,
+			"EndDialogue" : ["Thanks for getting me the  Health potions I asked of you. Here have this bag I am sure it will come in handy." , "If you wanna make quick money, do come again."],
+			"Rewards":[{"RewardID" : "Nine_Slot_Bag" , "Amount": 1}],
+			"Tasks":[{"TaskTitle":"Craft 5 Health Potions","TaskGoals":[{"GoalID" : "Health_Potion" , "Amount": 5}]}]}
+			,
+			{"ID":"02",
+			"Title":"Crafting 102",
+			"Description":"Craft 5 Nine slot bags",
+			"StartDialogue" : ["Welcome back!" , "Can you get me 5 bags please?"] ,
+			"EndDialogue" : ["Thanks for getting me the bags I asked of you. Here have this bag I am sure it will come in handy." , "If you wanna make quick money, do come again."],
+			"Rewards":[{"RewardID" : "Nine_Slot_Bag" , "Amount": 1}],
+			"Tasks":[{"TaskTitle":"Craft 5 Nine slot bags","TaskGoals":[{"GoalID" : "Nine_Slot_Bag" , "Amount": 5}]}]}
+		 ]
+}
