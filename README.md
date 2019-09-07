@@ -1,2 +1,2 @@
 # VoxelHarvest
-VoxelHarvest
+Voxel Harvest!
