@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Dome
   m_Shader: {fileID: 4800000, guid: fefd59ec9a96d744aa1f9f12938abd4e, type: 3}
   m_ShaderKeywords: 
@@ -77,6 +78,6 @@ Material:
     - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorBottom: {r: 0.42, g: 0.63, b: 1, a: 0}
-    - _ColorTop: {r: 0.42, g: 0.63, b: 1, a: 0}
+    - _ColorBottom: {r: 0.5411765, g: 0.7058824, b: 0.98039216, a: 0}
+    - _ColorTop: {r: 0, g: 0.5764706, b: 0.9137255, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
