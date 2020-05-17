@@ -101,6 +101,14 @@
 				"price": 50,
 				"maxStackSize": 5,
 				"recipe": null
+			   },
+			   {"id": "Crop_Fruit",
+				"typeID": "Fruit",
+				"name": "Crop Fruit",
+				"description": "This is the description of Crop Fruit item.",
+				"price": 5,
+				"maxStackSize": 20,
+				"recipe": null
 			   }
 
 ]}

@@ -107,6 +107,7 @@ public class ItemDataBase : MonoBehaviour
         typeDataBase.Add(new PotionBrewer());
         typeDataBase.Add(new Leather());
         typeDataBase.Add(new Rope());
+        typeDataBase.Add(new Fruit());
 
         CreateItemDataBase();
         AddIconsToDatabase();

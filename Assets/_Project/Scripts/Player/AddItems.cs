@@ -22,6 +22,7 @@ public class AddItems : MonoBehaviour {
             gameObject.GetComponent<Player>().PlayerInventory.AddItem(GameObject.Find("ItemDataBase").GetComponent<ItemDataBase>().GetItemFromID("Leather"), 10);
             gameObject.GetComponent<Player>().PlayerInventory.AddItem(GameObject.Find("ItemDataBase").GetComponent<ItemDataBase>().GetItemFromID("Flower"), 10);
             gameObject.GetComponent<Player>().PlayerInventory.AddItem(GameObject.Find("ItemDataBase").GetComponent<ItemDataBase>().GetItemFromID("Water_Bottle"), 10);
+            gameObject.GetComponent<Player>().PlayerInventory.AddItem(GameObject.Find("ItemDataBase").GetComponent<ItemDataBase>().GetItemFromID("Crop_Fruit"), 10);
             gameObject.GetComponent<Player>().UpdateItemDictionary();
         }
         if (Input.GetKeyDown(KeyCode.L))
