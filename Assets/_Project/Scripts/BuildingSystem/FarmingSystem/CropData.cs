@@ -9,5 +9,5 @@ public class CropData
     public List<string> activeSeasons;
     public string yieldItemID;
     public float growthTime;
-    public float yieldTimeAfterGrowth;
+    public float yieldGrowthTime;
 }
